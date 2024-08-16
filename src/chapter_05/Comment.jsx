@@ -1,7 +1,7 @@
 import React from "react";
 
 const styles = {
-    Wrapper: {
+    wrapper: {
         margin: 8,
         padding: 8,
         display: "flex",
@@ -34,7 +34,7 @@ const styles = {
 
 function Comment(props) {
     return (
-        <div style={styles.Wrapper}>
+        <div style={styles.wrapper}>
             <div style={styles.imageContainer}>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" style={styles.image} />
             </div>
